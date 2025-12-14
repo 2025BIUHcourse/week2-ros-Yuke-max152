@@ -63,9 +63,9 @@ rm -r test_dir
 
 ```
 
-![1.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/1.png)
+![1.png](1.png)
 
-![2.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/2.png)
+![2.png](2.png)
 
 ### 1.2 进程管理与终止进程
 
@@ -92,7 +92,7 @@ kill -9 <PID>
 
 ---
 
-![13.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/13.png)
+![13.png](13.png)
 
 ### 任务 2：Python 与 C++ 编程练习
 
@@ -121,7 +121,7 @@ python3 hello.py
 
 ```
 
-![3.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/3.png)
+![3.png](3.png)
 
 ### 2.2 C++ 程序编写与编译
 
@@ -206,7 +206,7 @@ int main() {
 
 ```
 
-![4.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/4.png)
+![4.png](4.png)
 
 1. 编译程序：
 
@@ -235,7 +235,7 @@ code .
 
 3.创建 `launch.json`，选择 C++ 或 Python 进行调试。
 
-![5.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/5.png)
+![5.png](5.png)
 
 ---
 
@@ -250,7 +250,7 @@ roscore
 
 ```
 
-![6.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/6.png)
+![6.png](6.png)
 
 ### 3.2 查看 ROS 节点
 
@@ -261,7 +261,7 @@ rosnode list
 
 ```
 
-![7.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/7.png)
+![7.png](7.png)
 
 ### 3.3 查看 ROS 环境变量
 
@@ -275,7 +275,7 @@ echo $ROS_PACKAGE_PATH
 
 ---
 
-![8.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/8.png)
+![8.png](8.png)
 
 ### 任务 4：ROS 工作空间与功能包
 
@@ -360,7 +360,7 @@ rosrun beginner_tutorials hello_ros
 
 ---
 
-![9.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/9.png)
+![9.png](9.png)
 
 ### 任务 5：Turtlesim 小乌龟模块
 
@@ -449,7 +449,7 @@ rosrun beginner_tutorials turtle_circle
 
 ---
 
-![10.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/10.png)
+![10.png](10.png)
 
 ### 任务 6：多乌龟控制与 Launch 文件
 
@@ -512,9 +512,9 @@ rostopic pub -r 10 /turtle2/cmd_vel geometry_msgs/Twist "{linear: {x: 1.0}, angu
 
 ```
 
-![11.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/11.png)
+![11.png](11.png)
 
-![12.png](Week%202%20%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/12.png)
+![12.png](12.png)
 
 ### 6.5 使用 `rqt_graph` 查看通信关系
 
