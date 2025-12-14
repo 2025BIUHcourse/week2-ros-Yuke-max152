@@ -362,17 +362,7 @@ int main(int argc, char** argv)
     msg.linear.x = 2.0;   // 乌龟向前运动
     msg.angular.z = 2.0;  // 同时旋转 → 组合成画圆
 
-    while (ros::ok())四、实验结果分析
-成功通过 roscore 启动 ROS Master，并验证了 ROS 环境变量。
-使用 rostopic 控制了小乌龟运动，成功实现了直线、旋转和画圆。
-使用 rosservice 创建了第二只乌龟，并通过 rostopic 实现了独立控制。
-成功使用 rqt_graph 和 rqt_plot 可视化了通信关系图和速度图。
-四、实验结果分析
-成功通过 roscore 启动 ROS Master，并验证了 ROS 环境变量。
-使用 rostopic 控制了小乌龟运动，成功实现了直线、旋转和画圆。
-使用 rosservice 创建了第二只乌龟，并通过 rostopic 实现了独立控制。
-成功使用 rqt_graph 和 rqt_plot 可视化了通信关系图和速度图。
-
+    while (ros::ok())
     {
         pub.publish(msg);  // 每次循环都发布指令
         rate.sleep();
@@ -413,11 +403,6 @@ gedit multi_turtles.launch
 <launch>
     <node pkg="turtlesim" type="turtlesim_node" name="turtlesim"/>
 </launch>
-四、实验结果分析
-成功通过 roscore 启动 ROS Master，并验证了 ROS 环境变量。
-使用 rostopic 控制了小乌龟运动，成功实现了直线、旋转和画圆。
-使用 rosservice 创建了第二只乌龟，并通过 rostopic 实现了独立控制。
-成功使用 rqt_graph 和 rqt_plot 可视化了通信关系图和速度图。
 
 ```
 
